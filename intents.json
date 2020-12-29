@@ -1,0 +1,49 @@
+{
+"intents": 
+	[
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "wassup", "Namaste"],
+         "responses": ["Hello, thanks for visiting.", "Good to see you visit us.", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "c u later", "tata", "bye for now"],
+         "responses": ["See you later, thanks for visiting.", "Have a nice day.", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks a lot", "Thank you", "That's helpful", "Thanks for the information", "Thank you for helping"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure."]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "when is your shop open?" ],
+         "responses": ["We're open everyday 11am - 9pm.", "Our hours are 11am - 9pm everyday.", "Shop is open from 11am - 9pm everyday."]
+        },
+        {"tag": "payments",
+         "patterns": ["How can we pay?", "How can the payments be done?", "what are the ways of payment?",
+						"how do you accept payment?", "Do you take credit cards?", "Do you accept Mastercard?", 
+						"Are you cash only?", "Do you accept COD?", "Do you have Cash On Delivery?" ],
+         "responses": ["We accept most major credit/debit cards", "We take payments online only by credit/debit cards.",
+						"COD is not available for now, we accept only online payments."]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+		{"tag": "sell",
+		 "patterns": ["what you sell?", "what u sale?", "what are you Selling?", "what is available?", "what all products are sold here?", 
+						"Do you have agarbattis?", "Do you sell agarbattis", "Are agarbattis available?", 
+						"I want to buy agarbattis?", "I want to buy incense sticks."],
+		 "responses":["We sell Agarbattis and puja related products", "We have wide variety of puja related products and agarbattis."]
+		},
+		{"tag": "address",
+		 "patterns":["what is the shop address?", "where is the shop?", "where is your shop?", "where to visit the shop?", "I want the shop address.",
+						"I want to visit the shop.", "Can I visit the shop?"],
+		 "responses":["You can visit our shop at below address: V.L Mashere, shop no 4, halai lohana mahajan trust building, chendani naka, Station Rd, next to patel saree center, near ashok cinema, Thane West, Thane, Maharashtra - 400601."]
+		},
+		{"tag": "contact",
+		 "patterns": ["what is your contact number?", "What number to contact?", "what are your contact details?", 
+						"Where should i call or message you?", "Are you available on phone or whatsapp?", "I want to call you."],
+		 "responses": ["You can contact us on +919819512520.", "Please reach us on +9819512520.", "You can call or message on +91981951520."]
+		}
+   ]
+}

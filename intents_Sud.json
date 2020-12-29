@@ -1,0 +1,85 @@
+{
+"intents": 
+	[
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "wassup", "Namaste"],
+         "responses": ["Hello, thanks for visiting.", "Good to see you visit us.", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "c u later", "tata", "bye for now"],
+         "responses": ["See you later, thanks for visiting.", "Have a nice day.", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks a lot", "Thank you", "That's helpful", "Thanks for the information", "Thank you for helping"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure."]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "when is your shop open?" ],
+         "responses": ["We're open everyday 11am - 9pm.", "Our hours are 11am - 9pm everyday.", "Shop is open from 11am - 9pm everyday."]
+        },
+        {"tag": "payments",
+         "patterns": ["How can we pay?", "How can the payments be done?", "what are the ways of payment?",
+						"how do you accept payment?", "Do you take credit cards?", "Do you accept Mastercard?", 
+						"Are you cash only?", "Do you accept COD?", "Do you have Cash On Delivery?" ],
+         "responses": ["We accept most major credit/debit cards", "We take payments online only by credit/debit cards.",
+						"COD is not available for now, we accept only online payments."]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+		{"tag": "sell",
+		 "patterns": ["what you sell?", "what u sale?", "what are you Selling?", "what is available?", "what all products are sold here?", 
+						"Do you have agarbattis?", "Do you sell agarbattis", "Are agarbattis available?", 
+						"I want to buy agarbattis?", "I want to buy incense sticks."],
+		 "responses":["We sell Agarbattis and puja related products", "We have wide variety of puja related products and agarbattis."]
+		},
+		{"tag": "address",
+		 "patterns":["what is the shop address?", "where is the shop?", "where is your shop?", "where to visit the shop?", "I want the shop address.",
+						"I want to visit the shop.", "Can I visit the shop?","How to reach you?"],
+		 "responses":["You can visit our shop at below address: \\n V.L Mashere, shop no 4, halailohana mahajan trust building, chendani naka, Station Rd, next to patel saree center, near ashok cinema, Thane West, Thane, Maharashtra 400601"]
+		},
+		{"tag": "product",
+		 "patterns":["How will be the product?", "Is your product box packed?", "What are the different types products do u have?", "Different types on Dhoop", "What are the different types of Dhoop do u have?","What are the different varieties of dhoop do u have?","Different products"],
+		 "responses":["The product will be box packed.","The varieties of products are: Dhoop Power, Dhoop Sticks, Dry Dhoop Sticks, Masala Agarbatti,Premium Malsala Agarbatti, Premium Scented Agarbatti,Scented Agarbatti and Wet Dhoop Sticks.","Please specify the exact product type."]
+		},
+		{"tag": "quantity",
+		 "patterns":["What will be the quantity of products?", "What are the different quantities to be packed?","Quantity of product", "In what quantity will i get Agarbattis","How many pisces will be in one pack of Agarbatti","How many pcs will be there in one pack of Agarbatti.","Qty of products","Quantity of products"],
+		 "responses":["The product will be in different quantities. Please specify product that you want."]
+		},
+		{"tag": "DhoopPowder",
+		 "patterns":["What are different types of Dhoop powder?", "Different types of Dhoop powder","Packing of dhoop powder", "How much will 50gm dhoop powder cost?","50gm dhoop powder cost","What is price of Dhoop Powder","Cost of Mallika","Cost of dasang"],
+		 "responses":["We have Dhoop powder in two types Mallika and Dasang.","50gm Mallika costs 45 rupees only.","75gm Dasang  costs 15 rupees only ","Dhoop powder will be box packed","50gm Mallika costs 45 rupees while 75gm Dasang  costs 15 rupees only"]
+		},
+		{"tag": "DhoopSticks",
+		 "patterns":["What are different types of Dhoop Sticks?", "Different types of Dhoop Sticks","Packing of dhoop Sticks","What is price of Dhoop Sticks","Cost of Golden Saffron","Cost of Roselin","Cost of Sai Flora","Cost of Mango","Cost of Vaishnodevi","Cost of Loban","Cost of Loban Samrani","Cost of Oudh","Cost of gugal"],
+		 "responses":["We have Dhoop Sticks in different types like Golden Saffron, Roselin, Sai Flora, Mango, Vaishnodevi, Loban, Loban Samrani, Oudh and gugal.","All the Dhoop sticks will be box packed","The costs of Dhoop Sticks are as follows:Golden Saffron-20pcs-110Rs, Roselin-20pcs-110Rs, Sai Flora-20pcs-100Rs, Mango-20pcs-100Rs, Vaishnodevi-20pcs-100Rs, Loban-12pcs-90Rs, Loban Samrani-20pcs-30Rs, Oudh-12pcs-110Rs and gugal-12pcs-90Rs.","Dhoop sticks will be box packed"]
+		},
+		{"tag": "DryDhoopSticks",
+		 "patterns":["What are different types of Dry Dhoop Sticks?", "Different types of Dry Dhoop Sticks","What is price of Dry Dhoop Sticks","Cost of Purple jewel","Cost of Blue Jewel"],
+		 "responses":["We have Dry Dhoop Sticks in two types: Purple jewel and Blue jewel.","The costs of Dry Dhoop Sticks are as follows:Purple jewel-20pcs-45Rs,Blue jewel-20pcs-45Rs","Each type costs Rs 45 per 20 pcs."]
+		},
+		{"tag": "MasalaAgarbatti",
+		 "patterns":["What are different types of Masala Agarbatti?", "Different types of Masala Agarbatti","What is price of Masala Agarbatti?","Cost of Mantra","Cost of Flora","Cost of Nag Champa","Cost of Nitya Puja","Cost of Masala Mogra","Cost of Masala Gulab","Cost of Indrayani Masala","Cost of Azaroo Masala","Cost of Natural Masala","Cost of Chandan Masala","Cost of Sai Flora Masala","Cost of Gold Flora","Cost of Chintamani Flora","Cost of Maratha Flora","Cost of Samrat Nag Champa","Cost of Loban Masala","Cost of Sai Chafa","Cost of White Gold","Cost of Azaroo","Cost of Natural"],
+		 "responses":["We have Masala Agarbatti in different types like Mantra, Flora, Nag Champa, Nitya Puja, Masala Mogra, Masala Gulab, Indrayani Masala, Azaroo Masala, Natural Masala, Chandan Masala, Sai Flora Masala, Gold Flora, Chintamani Flora, Maratha Flora, Samrat Nag Champa, Loban Masala, Sai Chafa, White Gold, Azaroo and Natural.","The costs of Masala Agarbattis are as follows:Mantra -250gm-350Rs, Flora-250gm-120Rs, Nag Champa-250gm-140Rs, Nitya Puja-250gm-140Rs, Masala Mogra-250gm-160Rs, Masala Gulab-250gm-160Rs, Indrayani Masala-250gm-200Rs, Azaroo Masala-250gm-160Rs, Natural Masala-250gm-220Rs, Chandan Masala-250gm-220Rs, Sai Flora Masala-250gm-300Rs, Gold Flora-250gm-300Rs, Chintamani Flora-250gm-300Rs, Maratha Flora-250gm-300Rs, Samrat Nag Champa-250gm-260Rs, Loban Masala-250gm-260Rs, Sai Chafa-250gm-400Rs, White Gold-250gm-225Rs, Azaroo-250gm-45Rs and Natural-250gm-45Rs.","Masala Agarbattis will be box packed."]
+		},
+		{"tag": "PremiumMasalaAgarbatti",
+		 "patterns":["What are different types of Premium Masala Agarbatti?", "Different types of Premium Masala Agarbatti","What do you have in premium","What is price of Premium Masala Agarbatti?","Cost of Super Gold Sandal","Cost of Heena Masala ","Cost of Nabil Masala","Cost of Agar Oudh ","Cost of Sai Special","Cost of Vaishnavi Flora","Cost of Vitthal Flora","Cost of Ratrani Masala","Cost of Mogra Masala","Cost of Sandal King","Cost of White Rose","Cost of Narayan Flora","Cost of Vignaharta Flora","Cost of Musk Heena","Cost of Nida Flora"],
+		 "responses":["We have Premium Masala Agarbatti in different types like Super Gold Sandal,  Heena Masala, Nabil Masala,  Agar Oudh , Sai Special,  Vaishnavi Flora,  Vitthal Flora,  Ratrani Masala,  Mogra Masala, Sandal King, White Rose, Narayan Flora, Vignaharta Flora, Musk Heena, Nida Flora.","The costs of Premium Masala Agarbattis are as follows:Super Gold Sandal -250gm-1000Rs,  Heena Masala -250gm-1000Rs, Nabil Masala -250gm-2000Rs,  Agar Oudh -250gm-600Rs , Sai Special -250gm-860Rs,  Vaishnavi Flora -250gm-500Rs,  Vitthal Flora -250gm-400Rs,  Ratrani Masala -250gm-500Rs,  Mogra Masala -250gm-500Rs, Sandal King -250gm-500Rs, White Rose -250gm-500Rs, Narayan Flora -250gm-360Rs, Vignaharta Flora -250gm-400Rs, Musk Heena -250gm-400Rs, Nida Flora -250gm-500Rs.","Premium Masala Agarbattis will be box packed.","In premium we have Premium masala Agarbatti and Premium Scented Agarbatti"]
+		},
+		{"tag": "PremiumScentedAgarbatti",
+		 "patterns":["What are different types of Premium Scented Agarbatti?", "Different types of Premium Scented Agarbatti","What is price of Premium Scented Agarbatti?","Cost of Kesari Chandan","Cost of Golden Mogra","Cost of Golden Gulab","Cost of Ratrani","Cost of Lavender","Cost of Shree Akkalkot Swami","Cost of Jai Mata Di", "Cost of Confidence","Cost of Shalimar Sugandh","Cost of Kashmiri Rose","Cost of Magnum","Cost of Tirupati","Cost of Jordan","Cost of English Brut"],
+		 "responses":["We have Premium Scented Agarbatti in different types like Kesari Chandan, Golden Mogra, Golden Gulab, Ratrani, Lavender, Shree Akkalkot Swami, Jai Mata Di, Confidence, Shalimar Sugandh, Kashmiri Rose, Magnum, Tirupati,  Jordan and English Brut.","The costs of Premium Scented Agarbattis are as follows:Kesari Chandan-250gm-300Rs, Golden Mogra-250gm-260Rs, Golden Gulab-250gm-260Rs, Ratrani-250gm-300Rs, Lavender-250gm-300Rs, Shree Akkalkot Swami-250gm-300Rs, Jai Mata Di-250gm-280Rs, Confidence-250gm-300Rs, Shalimar Sugandh-250gm-275Rs, Kashmiri Rose-250gm-500Rs, Magnum-250gm-700Rs, Tirupati-250gm-220Rs,  Jordan-250gm-225Rs and English Brut-250gm-225Rs.","Premium Scented Agarbattis will be box packed."]
+		},
+		{"tag": "ScentedAgarbatti",
+		 "patterns":["What are different types of Scented Agarbatti?", "Different types of Scented Agarbatti","What is price of Scented Agarbatti?","Cost of Musk","Cost of Rose ","Cost of Chandan","Cost of Vanilla","Cost of Holy Stick","Cost of Heena","Cost of Mogra","Cost of Akash Mogra", "Cost of Sandal","Cost of Pineapple ","Cost of Litchi","Cost of Alphanso","Cost of Strawberry","Cost of Shreeniwasa","Cost of White Flower","Cost of Swarna Champa","Cost of Chandan","Cost of Kasturi","Cost of Lavender","Cost of Akash Phool","Cost of Mallika","Cost of Gulab","Cost of Milan", "Cost of Firaki",
+						"Cost of Amchi Mumbai"],
+		 "responses":["We have Scented Agarbatti in different types like Musk, Rose , Chandan, Vanilla, Holy Stick, Heena, Mogra, Akash Mogra, Sandal, Pineapple , Litchi, Alphanso, Strawberry, Shreeniwasa, White Flower, Swarna Champa, Chandan, Kasturi, Lavender, Akash Phool, Mallika, Gulab, Milan, Firaki and Amchi Mumbai.","The costs of Scented Agarbattis are as follows: Musk-100gm-60Rs, Rose-100gm-60Rs , Chandan-100gm-60Rs, Vanilla-100gm-60Rs, Holy Stick-100gm-60Rs, Heena-100gm-60Rs, Mogra-250gm-60Rs, Akash Mogra-250gm-80Rs, Sandal-250gm-180Rs, Pineapple-250gm-200Rs , Litchi-250gm-200Rs, Alphanso-250gm-200Rs, Strawberry-250gm-200Rs, Shreeniwasa-250gm-150Rs, White Flower-250gm-150Rs, Swarna Champa-20gm-15Rs, Chandan-20gm-15Rs, Kasturi-20gm-15Rs, Lavender-20gm-15Rs, Akash Phool-20gm-15Rs, Mallika-20gm-15Rs, Gulab-20gm-15Rs, Milan-20gm-15Rs, Firaki-20gm-15Rs and Amchi Mumbai-20gm-15Rs.","Scented Agarbattis will be box packed and in pouches as well."]
+		},
+		{"tag": "WetDhoopSticks",
+		 "patterns":["What are different types of Wet Dhoop Sticks?", "Different types of Wet Dhoop Sticks","What is price of Wet Dhoop Sticks?","Cost of Gugal","Cost of Loban ","Cost of Champa", "Cost of Gulab","Cost of Mogra", "Cost of Prachin"],
+		 "responses":["We have Wet Dhoop Sticks in different types like Gugal,  Loban , Champa, Gulab, Mogra and Prachin.","The costs of Wet Dhoop Sticks are as follows:Gugal-20pcs-35Rs,  Loban-20pcs-35Rs , Champa-20pcs-35Rs, Gulab-20pcs-35Rs, Mogra-20pcs-35Rs and Prachin-20pcs-35Rs. It will be packed in Zipper polybags."]
+		}
+   ]
+}
