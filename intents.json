@@ -38,12 +38,12 @@
 		{"tag": "address",
 		 "patterns":["what is the shop address?", "where is the shop?", "where is your shop?", "where to visit the shop?", "I want the shop address.",
 						"I want to visit the shop.", "Can I visit the shop?"],
-		 "responses":["You can visit our shop at below address: V.L Mashere, shop no 4, halai lohana mahajan trust building, chendani naka, Station Rd, next to patel saree center, near ashok cinema, Thane West, Thane, Maharashtra - 400601."]
+		 "responses":["You can visit our shop at below address: shop no 4, halai lohana mahajan trust building, chendani naka, Station Rd, next to patel saree center, near ashok cinema, Thane West, Thane, Maharashtra - 400601."]
 		},
 		{"tag": "contact",
 		 "patterns": ["what is your contact number?", "What number to contact?", "what are your contact details?", 
 						"Where should i call or message you?", "Are you available on phone or whatsapp?", "I want to call you."],
-		 "responses": ["You can contact us on +919819512520.", "Please reach us on +9819512520.", "You can call or message on +91981951520."]
+		 "responses": ["You can contact us on +9198XXXXXXXX.", "Please reach us on +9198XXXXXXXX.", "You can call or message on +9198XXXXXXXX."]
 		}
    ]
 }
