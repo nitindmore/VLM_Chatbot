@@ -1,10 +1,5 @@
 cloudpickle==1.2.2
-Django==3.1.2
-Flask==1.1.1
 freeze==3.0
-google-auth==1.23.0
-google-auth-oauthlib==0.4.2
-google-pasta==0.2.0
 html5lib==1.0.1
 ipykernel==5.1.2
 ipython==7.8.0
